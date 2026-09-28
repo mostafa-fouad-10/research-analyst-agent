@@ -1,0 +1,26 @@
+# Versions below match the environment this project was developed in.
+
+# Graph orchestration
+langgraph==1.2.11
+langchain==1.4.2
+langchain-core==1.6.3
+
+# Web search
+langchain-tavily==0.2.18
+
+# LLM providers (models.py imports all four at the top of the file)
+langchain-ollama==1.1.0
+langchain-groq==1.1.3
+langchain-google-genai==4.4.0
+langchain-huggingface==1.2.2
+
+# Data models, config, UI
+pydantic==2.13.4
+typing_extensions==4.16.0
+python-dotenv==1.2.3
+streamlit==1.54.0
+
+# Optional: only if you run the graph with `langgraph dev` / LangGraph Studio
+# langgraph-cli==0.4.32
+# langgraph-api==0.14.4
+# langgraph-runtime-inmem==0.34.1
